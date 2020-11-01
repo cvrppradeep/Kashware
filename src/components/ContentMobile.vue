@@ -10,54 +10,54 @@
 
     
    <div class="banner1 delay1">
-<img class="img" src= "../assets/hero1.png" />
+<img class="teaser" src= "../assets/hero1.png" />
 <div class="text-box top">
-  <h1 class="h-text">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
-  <p class="p-text">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
+  <h1 class="mh-text">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
+  <p class="mp-text">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
 </div>
    </div>
 
 
   <div class="banner2 delay1">
-<img class="img2" src= "../assets/hero2.png" />
+<img class="teaser" src= "../assets/hero2.png" />
 <div class="text-box top">
-  <h1 class="h-text1">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
-  <p class="p-text1">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
+  <h1 class="mh-text1">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
+  <p class="mp-text1">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
 </div>
    </div>
 
 
 <div class="banner3 delay1">
 <img class="img3" src= "../assets/hero2.png" />
-<div class="text-box top">
-  <h1 class="h-text2">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
-  <p class="p-text2">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
+<div class="text-box t-56">
+  <h1 class="mh-text2">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
+  <p class="mp-text2">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
 </div>
    </div>
 
-    <div class="banner4 delay1">
+   <div class="banner4 delay1">
 <img class="img4" src= "../assets/hero2.png" />
-<div class="text-box top">
-  <h1 class="h-text3">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
-  <p class="p-text3">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
+<div class="text-box t-56">
+  <h1 class="mh-text3">Kashware is an exclusive <br>ecosystem that unites your money.</h1>
+  <p class="mp-text3">#Spend #Save #StaySecured #EarnRewards #JoinTheKlub</p>
 </div>
    </div>
      
- <div class="banner5 delay1">
+   <div class="banner5 delay1">
 <img class="img5" src= "../assets/Layer 2.png" />
-</div>
+</div> 
 
- <div class="banner6 delay1">
+<div class="banner6 delay1">
 <img class="img6" src= "../assets/kashware kard1.png" />
-</div>
+</div> 
 
-<div class="banner7 delay1">
+ <div class="banner7 delay1">
 <img class="img7" src= "../assets/kashware kard.png" />
-</div>
+</div> 
 
 <div class="banner8 delay1">
 <img class="img8" src= "../assets/kashware kard.png" />
-</div>
+</div> 
 
 <div class="banner9 delay1">
 <img class="img9" src= "../assets/kashware kard.png" />
@@ -68,8 +68,8 @@
 <div class="banner10 delay1">
 <img class="img10" src= "../assets/Kard Fan.png" />
 
-<div class="text-box btm-0">
-  <h1 class="h-text10">One App. One Card.<br> For all others.</h1>
+<div class="text-box">
+  <h1 class="mh-text10">One App. One Card.<br> For all others.</h1>
   
 </div>
 </div>
@@ -85,32 +85,35 @@ export default {};
 
 <style lang="scss" scoped>
 .top{
-  top:13%
+  top:0;
+}
+.t-56{
+top:56px;
 }
 .btm-0{
 bottom: 0;
 }
-.p-text{
+.mp-text{
   font: normal normal 600 22px/30px SF Pro Display;
     letter-spacing: 0px;
     color: #AAA6A1;
     opacity: 1;
 }
-.p-text1{
+.mp-text1{
   font: normal normal 600 20px/30px SF Pro Display;
     letter-spacing: 0px;
     color: #AAA6A1;
     opacity: 1;
 }
-.p-text2{
-  font: normal normal 600 15px/30px SF Pro Display;
+.mp-text2{
+  font: normal normal 600 10px/30px SF Pro Display;
     letter-spacing: 0px;
     color: #AAA6A1;
     opacity: 1;
 
 }
-.p-text3{
-  font: normal normal 600 12px/0px SF Pro Display;
+.mp-text3{
+  font: normal normal 600 9px/0px SF Pro Display;
     letter-spacing: 0px;
     color: #AAA6A1;
     opacity: 30%;
@@ -124,82 +127,74 @@ bottom: 0;
   right: 0;
 text-align: center;
 }
-.img{
-width: 100%;
-position: absolute;
-// left:50%;
-// top:50%;
-// transform: translate(-50%,-50%);
-}
-.img2{
-  width: 80%;
-}
+
 .img3{
-  width: 55%;
-  height: 100%;
+  width: 70%;
+  height: 400px;
 }
 .img4{
-  width: 40%;
-  height: 100%;
+  width: 60%;
+  height: 400px;
 }
 .img5{
-  width: 35%;
-  height: 85%;
+  width: 60%;
+  height: 400px;
 }
 .img6{
-  width: 30%;
-  height: 85%;
+  width: 60%;
+  height: 400px;
 }
 .img7{
-  width: 30%;
-  height: 85%;
+  width: 60%;
+  height: 400px;
 }
 .img8{
-  height: 70%;
-    padding: 3rem;
+  height: 45%;
+    // padding: 3rem;/
 }
 .img9{
-  height: 60%;
-    padding: 3rem;
+  height: 45%;
+    // padding: 3rem;
 }
 .img10{
-  height: 60%;
-    padding: 3rem;
+  height: 45%;
+    // padding: 3rem;
 }
 
-.h-text{
- height: 214px;
-    font: normal normal bold 50px/64px SF Pro Display;
+.mh-text{
+ height: 192px;
+    font: normal normal bold 34px/42px SF Pro Display;
+    /* letter-spacing: 0px; */
+    color: #E5DFD8;
+    opacity: 1;
+
+}
+.mh-text1{
+  height: 192px;
+    font: normal normal bold 34px/42px SF Pro Display;
     /* letter-spacing: 0px; */
     color: #E5DFD8;
     opacity: 1;
 }
-.h-text1{
-  height: 194px;
-    font: normal normal bold 56px/65px SF Pro Display;
+.mh-text2{
+ height: 192px;
+    font: normal normal bold 18px/32px SF Pro Display;
     /* letter-spacing: 0px; */
     color: #E5DFD8;
     opacity: 1;
 }
-.h-text2{
-  height: 194px;
-    font: normal normal bold 40px/49px SF Pro Display;
+.mh-text3{
+  height: 192px;
+    font: normal normal bold 15px/30px SF Pro Display;
     /* letter-spacing: 0px; */
-    color: #AAA6A1;
+    color: #E5DFD8;
     opacity: 1;
 }
-.h-text3{
-  height: 194px;
-    font: normal normal bold 27px/30px SF Pro Display;
+.mh-text10{
+  height: 192px;
+    font: normal normal bold 24px/42px SF Pro Display;
     /* letter-spacing: 0px; */
-    color: #AAA6A1;
-    opacity: 30%;
-}
-.h-text10{
-  height: 194px;
-    font: normal normal bold 27px/30px SF Pro Display;
-    /* letter-spacing: 0px; */
-    color: white;
+    color: #E5DFD8;
     opacity: 1;
 }
 .text-box{
@@ -660,7 +655,7 @@ text-align: center;
   // max-width: 768px;
   height: 400px;
   margin-bottom: 40px;
-  background-image: url("../assets/hero1.png");
+//   background-image: url("../assets/hero1.png");
   background-size: cover;
   background-position: top;
   border-radius: 20px;

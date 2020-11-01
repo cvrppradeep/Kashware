@@ -13,7 +13,10 @@
         </div>
         <Navigation v-if="!mobileView" />
       </div>
-      <Content />
+      <div>
+     <div v-if="mobileView"><ContentMobile/></div>
+     <div v-else><Content /></div>
+      </div>
     </div>
   </div>
 </template>
@@ -22,6 +25,7 @@
 import Navigation from "./components/Navigation.vue";
 import NavigationMobile from "./components/NavigationMobile.vue";
 import Content from "./components/Content.vue";
+import ContentMobile from "./components/ContentMobile"; 
 
 export default {
   data: () => {
@@ -38,7 +42,8 @@ export default {
   components: {
     Navigation,
     NavigationMobile,
-    Content
+    Content,
+    ContentMobile
   },
   created() {
     this.handleView();
